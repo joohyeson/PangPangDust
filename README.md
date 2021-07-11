@@ -1,5 +1,7 @@
 # PangPangDust
-OpenGL/C++ 게임 엔진을 활용한 러닝게임
+OpenGL/C++ 게임 엔진을 활용한 러닝게임 -2019년 1학기 게임 프로젝트
+
+
 
 ## Summary
 
