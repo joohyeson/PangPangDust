@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Application.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>States\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>States\Pause</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Component\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterComponents.cpp">
+      <Filter>Component\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>App\Commands\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterCommands.cpp">
+      <Filter>App\Commands\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomSprite.cpp">
+      <Filter>Component\CustomSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="QuitCommand.cpp">
+      <Filter>App\Commands\Quit</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomBaseObject.cpp">
+      <Filter>customobject</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomPhysics.cpp">
+      <Filter>customobject</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoUIButton.cpp">
+      <Filter>customobject</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1.cpp">
+      <Filter>States\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootBulletController.cpp">
+      <Filter>shooting</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtils.cpp">
+      <Filter>shooting</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>shooting</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsPipeline.cpp">
+      <Filter>customobject</Filter>
+    </ClCompile>
+    <ClCompile Include="StartCommand.cpp">
+      <Filter>App\Commands\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2.cpp">
+      <Filter>States\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial.cpp">
+      <Filter>States\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialCommand.h">
+      <Filter>App\Commands\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialCommand.cpp">
+      <Filter>App\Commands\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialController.cpp">
+      <Filter>States\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="HappyEnding.cpp">
+      <Filter>States\HappyEnding</Filter>
+    </ClCompile>
+    <ClCompile Include="BadEnding.cpp">
+      <Filter>States\BadEnding</Filter>
+    </ClCompile>
+    <ClCompile Include="DigipenLogo.cpp">
+      <Filter>States\DigipenLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="Credit.cpp">
+      <Filter>States\Credit</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditCommand.cpp">
+      <Filter>App\Commands\Credit</Filter>
+    </ClCompile>
+    <ClCompile Include="Level4.cpp">
+      <Filter>States\Level4</Filter>
+    </ClCompile>
+    <ClCompile Include="Level4Controller.cpp">
+      <Filter>States\Level4</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3.cpp">
+      <Filter>States\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>States\GameOver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonLevel.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>States\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>States\Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Component\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentTypes.h">
+      <Filter>Component\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterComponents.h">
+      <Filter>Component\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoUIButton.h">
+      <Filter>Component\DemoUIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>App\Commands\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandTypes.h">
+      <Filter>App\Commands\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterCommands.h">
+      <Filter>App\Commands\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomSprite.h">
+      <Filter>Component\CustomSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="QuitCommand.h">
+      <Filter>App\Commands\Quit</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomBaseObject.h">
+      <Filter>customobject</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomPhysics.h">
+      <Filter>customobject</Filter>
+    </ClInclude>
+    <ClInclude Include="Level1.h">
+      <Filter>States\Level1</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootBulletController.h">
+      <Filter>shooting</Filter>
+    </ClInclude>
+    <ClInclude Include="ContactData.h">
+      <Filter>shooting</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtils.h">
+      <Filter>shooting</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>shooting</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>shooting</Filter>
+    </ClInclude>
+    <ClInclude Include="StartCommand.h">
+      <Filter>App\Commands\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="Level2.h">
+      <Filter>States\Level2</Filter>
+    </ClInclude>
+    <ClInclude Include="Tutorial.h">
+      <Filter>States\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialCoutroller.h">
+      <Filter>States\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="HappyEnding.h">
+      <Filter>States\HappyEnding</Filter>
+    </ClInclude>
+    <ClInclude Include="BadEnding.h">
+      <Filter>States\BadEnding</Filter>
+    </ClInclude>
+    <ClInclude Include="DigipenLogo.h">
+      <Filter>States\DigipenLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="Credit.h">
+      <Filter>States\Credit</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditCommand.h">
+      <Filter>App\Commands\Credit</Filter>
+    </ClInclude>
+    <ClInclude Include="Level4.h">
+      <Filter>States\Level4</Filter>
+    </ClInclude>
+    <ClInclude Include="Level4Controller.h">
+      <Filter>States\Level4</Filter>
+    </ClInclude>
+    <ClInclude Include="Level3.h">
+      <Filter>States\Level3</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>States\GameOver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{a4c61a45-6f83-4081-bec3-091c42be4108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{d3751412-3ba4-4576-8c36-adfa7ed352d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{42c6271b-7032-405d-a083-7e1855c12c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\MainMenu">
+      <UniqueIdentifier>{1fee0eee-5a70-4de5-a63f-1c226a69796d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Pause">
+      <UniqueIdentifier>{7e8d7d18-2caf-4dce-9009-49d3b89e2115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{46769dd2-a2c1-447a-9e45-790b4083b0a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Base">
+      <UniqueIdentifier>{1994e2ba-3034-45bb-a7a8-52886ecc67e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\CustomSprite">
+      <UniqueIdentifier>{e32f05be-a7d4-430a-b3db-b8a952367559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="customobject">
+      <UniqueIdentifier>{a8cde4cd-6af5-4ec7-91fb-d65d40a67710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Level1">
+      <UniqueIdentifier>{1371bc23-871a-4261-a113-b8d75da2cc23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shooting">
+      <UniqueIdentifier>{a69124fc-2bbc-420a-ad6d-cd18e0fe05ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Commands">
+      <UniqueIdentifier>{7a7e8ff8-99aa-455d-809f-625e68f1594b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Commands\Base">
+      <UniqueIdentifier>{48720499-fc61-47e7-9235-133c35ffe25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Commands\Quit">
+      <UniqueIdentifier>{8e1121b8-a0df-4d63-99e7-790ea168291b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\DemoUIButton">
+      <UniqueIdentifier>{44a70381-1f19-49dc-8d76-f49356199a47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Commands\Start">
+      <UniqueIdentifier>{b09d246e-4033-4e32-ba5b-f5c56a0254bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Level2">
+      <UniqueIdentifier>{3df48703-afb5-4afb-8cb8-096f27e39759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Tutorial">
+      <UniqueIdentifier>{bc3d508d-e5db-46d4-a872-f04af538d868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Commands\Tutorial">
+      <UniqueIdentifier>{5b15eee1-9e43-4888-97e6-f960459d590f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\HappyEnding">
+      <UniqueIdentifier>{a9bb2718-72d8-4e2d-accb-b385d76c405e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\BadEnding">
+      <UniqueIdentifier>{468822bf-7932-496e-9f7a-d01c42d4047d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Credit">
+      <UniqueIdentifier>{a60788bc-28c5-4df1-9c0a-cfa903d0a9da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\DigipenLogo">
+      <UniqueIdentifier>{1c0fd3df-36da-4d96-a40f-124f613bf452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Commands\Credit">
+      <UniqueIdentifier>{2a3382ce-e94f-40e4-b03f-92921a95a7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Level4">
+      <UniqueIdentifier>{24933966-17f9-49d9-a4f4-ce6a565423b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Level3">
+      <UniqueIdentifier>{c1802ad4-3df0-45bd-9161-b231839b8010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\GameOver">
+      <UniqueIdentifier>{d5b33aab-0fef-4873-b571-81ed56ab7bf6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

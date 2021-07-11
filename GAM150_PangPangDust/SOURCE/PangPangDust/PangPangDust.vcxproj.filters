@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="DemoUIButton.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MathUtils.cpp" />
+    <ClCompile Include="Level1.cpp">
+      <Filter>stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2.cpp">
+      <Filter>stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3.cpp">
+      <Filter>stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Level4.cpp">
+      <Filter>stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Level4Controller.cpp">
+      <Filter>stage</Filter>
+    </ClCompile>
+    <ClCompile Include="BadEnding.cpp">
+      <Filter>state</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>state</Filter>
+    </ClCompile>
+    <ClCompile Include="HappyEnding.cpp">
+      <Filter>state</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialCommand.cpp">
+      <Filter>tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialCommand.h">
+      <Filter>tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialController.cpp">
+      <Filter>tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial.cpp">
+      <Filter>tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="StartCommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="QuitCommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterCommands.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditCommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomSprite.cpp">
+      <Filter>custom</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomBaseObject.cpp">
+      <Filter>custom</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomPhysics.cpp">
+      <Filter>custom</Filter>
+    </ClCompile>
+    <ClCompile Include="DigipenLogo.cpp">
+      <Filter>state</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>state</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterComponents.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>state</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootBulletController.cpp">
+      <Filter>shoot</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>shoot</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsPipeline.cpp">
+      <Filter>custom</Filter>
+    </ClCompile>
+    <ClCompile Include="Credit.cpp">
+      <Filter>state</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="ContactData.h" />
+    <ClInclude Include="DemoUIButton.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="MathUtils.h" />
+    <ClInclude Include="Level1.h">
+      <Filter>stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Level2.h">
+      <Filter>stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Level3.h">
+      <Filter>stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Level4.h">
+      <Filter>stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Level4Controller.h">
+      <Filter>stage</Filter>
+    </ClInclude>
+    <ClInclude Include="BadEnding.h">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="HappyEnding.h">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialCoutroller.h">
+      <Filter>tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Tutorial.h">
+      <Filter>tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="StartCommand.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="QuitCommand.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterCommands.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditCommand.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandTypes.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonLevel.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentTypes.h">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomBaseObject.h">
+      <Filter>custom</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomPhysics.h">
+      <Filter>custom</Filter>
+    </ClInclude>
+    <ClInclude Include="DigipenLogo.h">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterComponents.h">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootBulletController.h">
+      <Filter>shoot</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>shoot</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomSprite.h">
+      <Filter>custom</Filter>
+    </ClInclude>
+    <ClInclude Include="Credit.h">
+      <Filter>state</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="stage">
+      <UniqueIdentifier>{398d99ac-6443-44a9-bb84-06b03dacd3eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="state">
+      <UniqueIdentifier>{a1458d16-b960-4d65-859b-095bf6e322b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tutorial">
+      <UniqueIdentifier>{c8e867fd-3964-4157-9198-65142f692fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="command">
+      <UniqueIdentifier>{279e5022-f782-48bd-8b59-a3ad13e2c579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="component">
+      <UniqueIdentifier>{436a8646-7c68-4921-b469-119f0d681dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="custom">
+      <UniqueIdentifier>{47e327ba-c160-44c5-a0e1-e885ee1a1c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shoot">
+      <UniqueIdentifier>{28236c37-c0f9-4f67-acfe-1fd334c2c7f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
