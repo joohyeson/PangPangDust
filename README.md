@@ -1,8 +1,9 @@
 # PangPangDust
 - OpenGL/C++ 게임 엔진을 활용한 러닝게임 -2019년 1학기 게임 프로젝트
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GSDZMLjOvm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p/>
+<img src = "https://user-images.githubusercontent.com/68503845/170427332-aa77e895-b29b-4650-9962-03e60765cc26.jpg" width="200" height="300">
+
+https://www.youtube.com/embed/GSDZMLjOvm8
+
 
 ## Summary
 
