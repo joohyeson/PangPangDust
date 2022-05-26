@@ -1,11 +1,14 @@
 # PangPangDust
 - OpenGL/C++ 게임 엔진을 활용한 러닝게임 -2019년 1학기 게임 프로젝트
-<img src = "https://user-images.githubusercontent.com/68503845/170427332-aa77e895-b29b-4650-9962-03e60765cc26.jpg" width="200" height="300">
 
-https://www.youtube.com/embed/GSDZMLjOvm8
-
+https://user-images.githubusercontent.com/68503845/170544298-f51021db-6979-4afd-99a1-344ef0389777.mp4
 
 ## Summary
+
+<img src = "https://user-images.githubusercontent.com/68503845/170427332-aa77e895-b29b-4650-9962-03e60765cc26.jpg" width="200" height="300">
+
+
+
 
 	Game name
 		- Pang Pang Dust
